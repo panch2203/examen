@@ -11,7 +11,10 @@
 			let data = JSON.parse(this.responseText);
 			xhr.onload () => {
 				
-				let html = ""+data;
+				data.forEach(obj => {
+					let html = ""+obj;
+				});
+				
 
 
 			}
