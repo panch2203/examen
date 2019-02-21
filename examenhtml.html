@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="styles.css"> 
+	<script type="text/javascript">
+		loadData() => {
+			let xhr = new XMLHttpRequest();
+			xhr.open("GET", "https://yvone.github.io/DAW/some-numbers.json")
+			
+		}
+	</script>
+</head>
+<body>
+	<div id= "cuerpo">
+		<div id="header">
+			<div id="hora">9:41</div>	
+			<div id="pila">
+				<img class="ff" src="pila.png">
+				<img class="ff" src="wifi.jpg">
+				<img class="ff" src="senal.jpg">
+			</div>	
+		</div>
+		<div id="menu">
+			<div ><img class="mm" src="logo_icon.png"></div>
+		</div>	
+		<div id="resto">
+			<div id="paloma"><img src="check_icon.png"></div>	
+			<h1>YOUR MEAL IS READY!</h1>
+			<h3>Pick up your meal in 'Andrea's Kitchen</h3>
+			<div id="central"><img class="fff" src="food.jpg"></div>
+			<h2>Rate your meal</h2>
+			<div id="estrella">
+				<img class="ff" src="star_icon.png">
+				<img class="ff" src="star_icon.png">
+				<img class="ff" src="star_icon.png">
+				<img class="ff" src="star_icon.png">
+				<img class="ff" src="star_icon.png">
+			</div>
+			<button id="ddd" type="button" onclick="loadData()">OK!</button>
+		</div>
+	</div>
+</body>
+</html>

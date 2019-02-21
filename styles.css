@@ -1,0 +1,114 @@
+.body{
+	background-image: url("https://forums.macrumors.com/attachments/wood-white-png.377635/");
+	background-position: center;
+}
+
+#cuerpo{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+#header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#hora{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+#pila{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.ff{
+	width:20px;
+    height:20px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+
+.fff{
+	width:100px;
+    height:150px;
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.mm{
+	width:20px;
+    height:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#header{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#hora{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+#menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+#resto{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#ddd{
+	width: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	color: blue;
+}
+
+#hola{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 20px;
+	width: 20px;
+}
+
+#paloma{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 20px;
+	width: 20px;
+}
+
+#estrella{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#central{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
