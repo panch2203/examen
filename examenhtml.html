@@ -6,8 +6,19 @@
 	<script type="text/javascript">
 		loadData() => {
 			let xhr = new XMLHttpRequest();
-			xhr.open("GET", "https://yvone.github.io/DAW/some-numbers.json")
-			
+			xhr.open("GET", "https://yvone.github.io/DAW/some-numbers.json");
+			let va = document.getElementbyID/("ddd");
+			let data = JSON.parse(this.responseText);
+			xhr.onload () => {
+				
+				let html = ""+data;
+
+
+			}
+
+			va.insertAdjacentHTML('beforeend', html);
+
+			xhr.send();
 		}
 	</script>
 </head>
@@ -38,6 +49,7 @@
 				<img class="ff" src="star_icon.png">
 			</div>
 			<button id="ddd" type="button" onclick="loadData()">OK!</button>
+			<div id="load-info"></div>
 		</div>
 	</div>
 </body>
